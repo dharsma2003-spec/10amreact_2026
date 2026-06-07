@@ -16,7 +16,7 @@ export default function App() {
 
       <h2>Square: {squaredValue}</h2>
 
-      <button onClick={() => setCount(count + 1)}>
+      <button className="test" onClick={() => setCount(count + 1)}>
         Increase
       </button>
 
