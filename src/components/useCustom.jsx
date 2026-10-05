@@ -1,0 +1,19 @@
+import { useState } from "react" ;
+
+function useCustom () {
+    const [count,setCount]=useState(0);
+    const increment = () => {
+        setCount(count + 1);
+     };
+     const decrement = () => {
+        setCount(count - 1);
+     };
+
+     return{
+        increment,
+        decrement,
+        count
+     };
+};
+
+export default useCustom;

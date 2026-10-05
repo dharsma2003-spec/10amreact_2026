@@ -1,6 +1,139 @@
 
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+}
+.timer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  border:3px solid black;
+  border-radius: 50px;
+  padding: 30px 50px;
+  margin: 20px;
+  background-color: white;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 2rem;
+  
+}
+.display{
+  font-size:3rem;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+}
+custom{
+  font-size: 1rem;
+  font-weight:100;
+}
+button{
+  font-size: 1.5rem;
+  font-weight: bold;  
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius:10px;
+  cursor: pointer;
+}
+h1,p,h3{
+  text-align: center;
+}
+.span{
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.work-break-btn{
+  
+  border: 2px solid black;
+  border: none;
+  margin: 10px ;
+  padding: 10px 10px;
+  text-align: center;
+}
 
-body {
+.start-btn{
+  background-color: rgb(12, 218, 12);
+  
+}
+.start-btn:hover{
+  background-color: rgb(11, 166, 19);
+}
+.stop-btn{
+  background-color: rgb(241, 22, 22);
+}
+.stop-btn:hover{
+  background-color: rgb(190, 13, 13);
+}
+.reset-btn{
+  background-color: rgb(9, 220, 220);
+}
+.reset-btn:hover{
+  background-color: rgb(8, 172, 172);
+}
+
+
+/* .container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2{
+  font-size: 2rem;
+}
+.color-selected{
+  border: 1px solid black;
+  border-radius: 30px;
+  height:300px;
+  width:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  
+}
+input[type="color"]{
+   width:100px;
+   height: 40px;
+   padding: 5px;
+   border-radius: 10px;
+} */
+
+/* .card{
+  border: 1px solid rgb(125, 121, 121);
+  display: inline-block;
+  width: 300px; 
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px ;
+  margin: 10px;;
+}
+.img{
+  border-radius: 100%;
+  height:auto;
+  width:60%
+} */
+/* .head{
+background-color: palevioletred;
+} */
+/* table{
+  border-spacing: 0 15px;
+}
+td{
+  padding: 5px;
+} */
+
+
+/* body {
   background-color: #141414;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -101,4 +234,4 @@ body {
 .manage-btn:hover {
   color: white;
   border-color: white;
-}
+} */
